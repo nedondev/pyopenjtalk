@@ -271,7 +271,7 @@ setup(
     author_email="zryuichi@gmail.com",
     url="https://github.com/r9y9/pyopenjtalk",
     license="MIT",
-    packages=find_packages(),
+    packages=setuptools.find_packages(),
     package_data={"": ["htsvoice/*"]},
     ext_modules=ext_modules,
     cmdclass=cmdclass,
